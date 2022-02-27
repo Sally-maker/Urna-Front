@@ -27,7 +27,7 @@ export const CustonButton = styled.button<ButtonProps>`
           background: ${backgroundColor};
         `
       : css`
-          background: ${theme.colors.orange_dark};
+          background: ${theme.colors.green_dark};
         `}
   font-size: 1.2rem;
   font-family: 'Ubuntu';

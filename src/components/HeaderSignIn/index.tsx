@@ -1,3 +1,5 @@
+/* eslint-disable import/extensions */
+/* eslint-disable import/no-unresolved */
 import { ReactNode, useCallback } from 'react';
 
 import { useHistory } from 'react-router-dom';
@@ -5,7 +7,7 @@ import { useHistory } from 'react-router-dom';
 import { ImageLogo } from '~/assets/images';
 import { useAuth } from '~/hooks/auth';
 
-import { Container, Title, ButtonSignOut } from './styles';
+import { Container, ButtonSignOut } from './styles';
 
 interface HeaderSignInProps {
   children: ReactNode;
@@ -24,7 +26,6 @@ const HeaderSignIn = ({ children }: HeaderSignInProps) => {
     <>
       <Container>
         <img src={ImageLogo} alt="logo" />
-        <Title>Senac</Title>
         {user && <ButtonSignOut onClick={handleSignOut}>Sair</ButtonSignOut>}
       </Container>
       {children}

@@ -1,3 +1,5 @@
+/* eslint-disable import/extensions */
+/* eslint-disable import/no-unresolved */
 import { useRef, useState, useCallback } from 'react';
 
 import { FormHandles } from '@unform/core';

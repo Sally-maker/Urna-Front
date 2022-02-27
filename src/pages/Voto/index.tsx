@@ -1,3 +1,5 @@
+/* eslint-disable import/extensions */
+/* eslint-disable import/no-unresolved */
 import { useRef, useCallback, useState } from 'react';
 
 import { FormHandles } from '@unform/core';
@@ -242,7 +244,7 @@ const Voto = () => {
             limpar
           </ClearFieldAction>
           <ConfirmAction onClick={handleSearchCandidate}>
-            confirmar
+            verificar
           </ConfirmAction>
         </FireButtonActions>
       </ActionContainer>

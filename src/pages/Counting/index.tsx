@@ -1,3 +1,6 @@
+/* eslint-disable import/extensions */
+/* eslint-disable import/no-unresolved */
+
 import { useMemo, useEffect, useState } from 'react';
 
 import { useToasts } from 'react-toast-notifications';

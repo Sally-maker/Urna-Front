@@ -1,3 +1,5 @@
+/* eslint-disable import/extensions */
+/* eslint-disable import/no-unresolved */
 import styled, { css } from 'styled-components';
 
 import { Input } from '~/components';
@@ -55,7 +57,7 @@ export const Display_Label = styled.span`
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 2.8;
-  margin-left: 130px;
+  margin-left: 185px;
 
   @media (max-width: 760px) {
     margin-left: 0;
@@ -107,8 +109,8 @@ export const Display_ConfirmButtonVote = styled.div`
 
 export const NumberButtonsContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 34px 30px;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 50px 100px;
 
   width: 100%;
   height: 100%;
@@ -184,7 +186,7 @@ export const ClearFieldAction = styled(CancelAction)`
 `;
 
 export const ConfirmAction = styled(CancelAction)`
-  background: #37a442;
+  background: rgb(229, 102, 0);
   color: #fff;
 `;
 

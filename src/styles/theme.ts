@@ -1,7 +1,7 @@
 export default {
   colors: {
     orange: '#F9A94A',
-    orange_dark: '#F7941E',
+    green_dark: '#006400',
     blue: '#004A8D',
     white: '#EFEFEF',
     blue_light: '#78C0E0',

@@ -52,7 +52,7 @@ export const ButtonSubmitContainer_ButtonSignIn = styled.button`
   height: 100%;
   max-height: 6.3rem;
 
-  background: ${({ theme }) => theme.colors.orange_dark};
+  background: ${({ theme }) => theme.colors.green_dark};
   color: ${({ theme }) => theme.colors.white};
   padding: 1rem 2.5rem;
   border-radius: 1rem;
