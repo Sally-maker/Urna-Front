@@ -1,6 +1,6 @@
 import Axios from 'axios';
 
-const baseURL = 'https://polar-eyrie-78797.herokuapp.com/';
+const baseURL = 'https://urna-api-v1.herokuapp.com';
 
 const api = Axios.create({
   baseURL,
